@@ -6,6 +6,10 @@ SPANISH = "spanish"
 
 
 class Person:
+    """
+    Class Person 
+    """
+
     def __init__(self, name, last_name, birthday, id):
         self.name = name
         self.last_name = last_name
@@ -14,6 +18,10 @@ class Person:
 
 
 class Student(Person):
+    """
+    Class Student inherites from Person class to calculate 
+    average course grades to Math, Biology and Spanish
+    """
 
     __MAX_GRADES = 3
 
