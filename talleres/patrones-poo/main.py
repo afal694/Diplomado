@@ -1,7 +1,6 @@
 from classes import *
 
 
-
 maria = Student("María", "Hernández", "15/04/1994", 1)
 
 
